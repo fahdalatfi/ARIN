@@ -65,16 +65,6 @@ html ,body {
 
 }
 
-.first-card{
-  padding:100px;
-  display: block;
-  background-color: black;
-  max-height: 50%;
-  margin-top:0%;
-  margin:50px;
-  margin-bottom: 250px;
-  box-shadow: 1px 1px 10px 1px #323232;
-}
 
 .main-card{
   padding:100px;
@@ -397,11 +387,8 @@ float:right;
 
   .carousel-image {
      height: 750px;
-    -webkit-transform: scale(1);
-     transform: scale(1); /* you can change the value also */
-    -webkit-transform-origin: center;
-     transform-origin: center;
- }
+     background: url(images/background-responsive.png) no-repeat !important;
+  }
   
 
   }
