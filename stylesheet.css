@@ -12,3 +12,11 @@ color:red;
 	.navbar .nav-item:hover .dropdown-menu{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
 }		
 /* ============ desktop view .end// ============ */
+
+.navbar {
+    -webkit-box-shadow: 0 6px 6px -6px #999;
+    -moz-box-shadow: 0 6px 4px -4px #999;
+    box-shadow: 0 6px 4px -4px #999;
+
+    /* the rest of your styling */
+}
