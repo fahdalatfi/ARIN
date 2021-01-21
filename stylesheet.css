@@ -3,7 +3,11 @@ color:red;
 
 }
 
-/* ============ only desktop view ============ */
+.carousel-inner{
+
+    max-height: 900px;
+}
+
 @media all and (min-width: 992px) {
 	.navbar .nav-item .dropdown-menu{  display:block; opacity: 0;  visibility: hidden; transition:.3s; margin-top:0;  }
 	.navbar .nav-item:hover .nav-link{ color: #fff;  }
@@ -11,5 +15,5 @@ color:red;
 	.navbar .dropdown-menu.fade-up{ top:180%;  }
 	.navbar .nav-item:hover .dropdown-menu{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
 }		
-/* ============ desktop view .end// ============ */
+
 
