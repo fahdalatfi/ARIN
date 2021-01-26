@@ -1,28 +1,40 @@
-.element{
-color:red;
-
-}
-
 .carousel-inner{
-
-    max-height: 915px;
+    max-height: 100%;
 }
 
 .carousel-caption{
-
     top:30%;
 }
 
 .display-2{
-
     text-shadow: 1px 1px 2px black;
     display: inline-block;
 }
 
+@media screen and (max-width:768px)
+{
+.display-2{
+    font-size: 20px;
+}
+.caption1{
+font-size: 15px;
+
+}
+
+slider-container1{
+    margin-bottom:10%;
+}
+
 .caption1{
     text-shadow: 1px 1px 2px black;
-    
 }
+
+.btn{
+    font-size: 15px;
+    padding: 2px;
+
+}
+
 
 
 @media all and (min-width: 992px) {
@@ -34,3 +46,9 @@ color:red;
 }		
 
 
+}
+
+.container-fluid{
+
+    margin-top: 50px;
+}
