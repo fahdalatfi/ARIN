@@ -44,6 +44,11 @@ slider-container1{
 }		
 }
 
+.jumbotron {
+    border-radius: 0px;
+    margin-bottom:0%;
+}
+
 .card {
     display: block;
     position: relative;
