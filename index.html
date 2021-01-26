@@ -16,6 +16,17 @@
 <body>
     
 <!-- Navbar -->
+
+<script>
+$(window).scroll(function(){
+        var scroll = $(window).scrollTop();
+        if(scroll < 300){
+            $('.fixed-top').css('background', 'transparent');
+        } else{
+            $('.fixed-top').css('background', 'rgba(0, 0, 0, 0.9)');
+        }
+    });
+</script>
  <div class="container-fullwidth">
     <nav class="navbar navbar navbar-expand-lg navbar-light fixed-top py-0">
     <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
@@ -110,6 +121,17 @@
 </div>
 
 <!-- Jumbotron -->
+<div class="container-fluid">
+  <div class="row jumbotron">
+    <div class="col-xs-12">
+      <h2>helloworld</h2>
+
+
+    </div>
+  </div>
+</div>
+
+
 
 <!-- Welcoming section -->
 
