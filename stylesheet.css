@@ -46,9 +46,33 @@ slider-container1{
 
 .card {
     display: block;
-    padding: 50px;
+    position: relative;
+    padding: 0%;
     margin:50px;
-    border-radius:20px; 
+    border-radius:0px; 
     border:none;
+    box-shadow: 0px 0px 30px -15px #8b8b8b;
 
+}
+
+.btn1{
+    position: absolute;
+    font-size: 10px;
+    padding:2px;
+    bottom: 1%;
+    right: 2%;
+    border-radius: 0%;
+    
+}
+
+.card-text{
+    font-size: 12px;
+    color:white;
+
+}
+
+.card-title{
+    color:white;
+    text-shadow:1px 1px 1px black;
+    padding: 0%;
 }
