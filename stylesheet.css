@@ -2,6 +2,10 @@
     max-height: 100%;
 }
 
+.html{
+    background-color: #f8f9fa;
+}
+
 .carousel-caption {
     top:30%;
 }
@@ -10,6 +14,26 @@
     text-shadow: 1px 1px 2px black;
     display: inline-block;
 }
+.container-fluid{
+margin-top: 50px;
+text-align: center;
+
+}
+
+html ,body {
+    background-color: #f8f9fa !important;
+}
+
+.cards-big-title{
+    text-align: center;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 0%;
+    border-radius: 20px;
+    padding: 10px;
+    color: black;
+    }
+
 
 @media screen and (max-width:768px)
 {
@@ -29,9 +53,6 @@ font-size: 15px;
     font-size: 15px;
 }
 
-slider-container1{
-    margin-bottom:10%;
-}
 
 .caption1 {
     text-shadow: 1px 1px 2px black;
@@ -42,7 +63,6 @@ slider-container1{
     padding: 2px;
 
 }
-
 
 
 @media all and (min-width: 992px) {
@@ -57,6 +77,7 @@ slider-container1{
 .row{
     margin-bottom:0%;
 }
+
 .jumbotron {
     border-radius: 0px;
     margin-bottom:0px;
@@ -67,12 +88,21 @@ slider-container1{
 
 .jumbotron-text{
     text-align: center;
+    color: black;
+    text-shadow: 1px 1px 1px black;
 }
 
 .jumbotron-caption{
     text-align: center;
+    color: black;
+    text-shadow: 1px 1px 1px black;
 }
 
+.btn2{
+    padding: 20px;
+    width: 200px;
+    margin-top: 15px;
+}
 .curve{
     height: 200px;
 }
