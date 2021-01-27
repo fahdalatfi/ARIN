@@ -20,6 +20,11 @@ text-align: center;
 
 }
 
+.card:hover{
+    transform: scale(1.1);
+
+}
+
 html ,body {
     background-color: #f8f9fa !important;
 }
