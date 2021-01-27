@@ -54,7 +54,9 @@ slider-container1{
 }		
 }
 
-
+.row{
+    margin-bottom:0%;
+}
 .jumbotron {
     border-radius: 0px;
     margin-bottom:0px;
