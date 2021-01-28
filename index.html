@@ -64,7 +64,7 @@ $(window).scroll(function(){
 </div>
     
 <!-- Carousel --> 
-<div id="templateCarousel" class="carousel slide" data-ride="carousel">
+<div id="templateCarousel" class="carousel-slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#templateCarousel" data-slide-to="0" class="active"></li>
     <li data-target="#templateCarousel" data-slide-to="1"></li>
@@ -107,16 +107,9 @@ $(window).scroll(function(){
 
   </div>
 
-  <!-- Carousel NavButtons-->
-<a class="carousel-control-prev" href="#templateCarousel" role="button" data-slide="prev">
- <span class="carousel-control-prev-icon" aria-hidden="true"></span>
- <span class="sr-only">previous</span>
-</a>
-
-<a class="carousel-control-next" href="#templateCarousel" role="button" data-slide="next">
- <span class="carousel-control-next-icon" aria-hidden="true"></span>
- <span class="sr-only">next</span>
-</a>
+<script>
+$('#templateCarousel').carousel()
+</script>
 
 </div>
 
