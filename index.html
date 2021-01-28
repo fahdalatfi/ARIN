@@ -109,6 +109,18 @@ $(window).scroll(function(){
 
 <script>
 $('#templateCarousel').carousel()
+
+$(function() {
+  setTimeout(function() {
+    $(".caption1").addClass("fadein");
+  }, 100);
+});
+
+$(function() {
+  setTimeout(function() {
+    $(".display-2").addClass("fadein");
+  }, 100);
+});
 </script>
 
 </div>
@@ -158,7 +170,13 @@ $('#templateCarousel').carousel()
 </div>
 </div>
 
-
+<script>
+  $(function() {
+  setTimeout(function() {
+    $(".card").addClass("scalein");
+  }, 100);
+});
+</script>
 
 
 <!--Jumbotron-->
