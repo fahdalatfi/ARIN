@@ -124,23 +124,28 @@ text-align: center;
 }
 
 /* Smaller devices styling */
-@media screen and (max-width:768px)
+@media screen and (max-width:1024px)
 {
 
 .display-2 {
-    font-size: 5px;
+    font-size: 25px;
 }
 .caption1 {
 font-size: 15px;
 
 }
 
+.btn-carousel{
+    font-size: 15px;
+    padding:2px;
+}
+
 .jumbotron-text{
-    font-size: 10px;
+    font-size: 20px;
 }
 
 .jumbotron-caption{
-    font-size: 8px;
+    font-size: 15px;
 }
 }
 
