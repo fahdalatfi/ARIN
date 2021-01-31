@@ -239,7 +239,7 @@ font-size: 15px;
     position: absolute;
     width: 25px;
     height: 25px;
-    right: -17px;
+    right: -100px;
     background-color: white;
     border: 4px solid #FF9F55;
     top: 15px;
@@ -249,12 +249,12 @@ font-size: 15px;
   
   /* container left align */
   .left {
-    left: 0;
+    left: -32.3%;
   }
   
   /* container right align */
   .right {
-    left: 50%;
+    left: 24.4%;
   }
   
   /* pointing right */
