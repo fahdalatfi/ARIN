@@ -26,12 +26,12 @@ html ,body {
 
 .caption1 {
     opacity:0;
-    transition:opacity 4.5s;
+    transition:opacity 1s;
 }
 
   .display-2 {
     opacity:0;
-    transition:opacity 1.5s;
+    transition:opacity 1s;
 }
   
   .fadein {
@@ -120,7 +120,7 @@ text-align: center;
     transform: scale(1);
 }
 .card.scalein {
-    animation: pulse 5s infinite;
+    animation: pulse 1s infinite;
 }
 
 /* Smaller devices styling */
@@ -218,7 +218,7 @@ font-size: 15px;
     content: '';
     position: absolute;
     width: 6px;
-    background-color: #007bff ;
+    background-color: #c9c9c9;
     top: 0;
     bottom: 0;
     left: 50%;
