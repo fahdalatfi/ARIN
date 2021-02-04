@@ -276,9 +276,13 @@ font-size: 15px;
     background-color: white;
     position: relative;
     border-radius: 6px;
-    width: 40%;
+    width: 50%;
   }
   
+  /* timeline h1 tag*/
+  .timeline-text{
+    margin-bottom:2%;
+  }
   /*Enable Responsive feature */
   @media screen and (max-width: 900px) {
   /* Place the timelime to the left */
@@ -294,7 +298,7 @@ font-size: 15px;
     }
 
     .content{
-      max-width: 45%;
+      width: 45%;
       
     }
 
