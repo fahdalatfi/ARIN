@@ -278,15 +278,22 @@ font-size: 15px;
   }
   
   /*Enable Responsive feature */
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 900px) {
   /* Place the timelime to the left */
     .timeline::after {
-      left: 10%;
+      left: 45px;
     }
 
-  .container::after {
-    left: 7%;
-  }
+
+    .container::after{
+      left:32px;
+    }
+    .container{
+      min-width: 900px;
+      width: 50%;
+    }
+
+
 
   .container{
     width: 100%;
