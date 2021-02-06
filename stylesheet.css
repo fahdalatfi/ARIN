@@ -270,7 +270,7 @@ font-size: 15px;
   }
   
   
-  /*content */
+  /*content right */
   .content {
     padding: 20px 30px;
     position: relative;
@@ -278,12 +278,28 @@ font-size: 15px;
     width: 50%;
     margin-left:50%;
   }
+
+  .content-left{
+    padding: 20px 30px;
+    position: relative;
+    border-radius: 6px;
+    width: 50%;
+    margin-left:0%;
+    text-align: right;
+  }
   
   /* timeline icons*/
   .timeline-icon{
     border-radius: 50%;
     border: white solid 2px;
   }
+
+  .timeline-icon-left{
+    border-radius: 50%;
+    border: white solid 2px;
+    margin-left:50%;
+  }
+
   /* timeline h1 tag*/
   .timeline-text{
     margin-bottom:2%;
@@ -305,7 +321,14 @@ font-size: 15px;
     .content{
       width: 45%;
       margin-left: 0%;
-      
+    }
+
+    .content-left{
+      text-align: left;
+    }
+
+    .timeline-icon-left{
+      margin-left:0%;
     }
 
 
