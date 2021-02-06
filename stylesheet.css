@@ -276,6 +276,7 @@ font-size: 15px;
     position: relative;
     border-radius: 6px;
     width: 50%;
+    margin-left:50%;
   }
   
   /* timeline icons*/
@@ -303,6 +304,7 @@ font-size: 15px;
 
     .content{
       width: 45%;
+      margin-left: 0%;
       
     }
 
