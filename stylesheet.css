@@ -7,7 +7,10 @@
 
 html ,body {
     background-color: #f8f9fa !important;
+
 }
+
+
 
 /* Carousel Styling */
 
@@ -44,14 +47,18 @@ html ,body {
 
 .btn-carousel {
     font-size: 20px;
-    padding: 5px;
+    padding: 10px;
 }
+
+
+
 
   /* Cards Styling */
 
 .container-fluid{
-margin-top: 50px;
 text-align: center;
+background-color: #f3f5f9;
+padding:100px;
 
 }
 
@@ -64,10 +71,14 @@ text-align: center;
     padding: 10px;
     color: black;
 }
+.cards-header{
+  font-weight: 400;
+}
 
 .card:hover{
     box-shadow: 8px 8px 30px -15px black;
     transform: scale(1.1);
+    filter:grayscale(0%)
 }
 
 .card {
@@ -78,19 +89,16 @@ text-align: center;
     border-radius:0px; 
     border:none;
     box-shadow: 0px 0px 30px -15px #8b8b8b;
+    filter:grayscale(95%)
 }
 
 .row{
     z-index: 1;
     margin-bottom: 300px;
     margin-bottom:0%;
-
+    background-color: #f3f5f9;
 }
 
-.card:hover{
-    box-shadow: 8px 8px 30px -15px black;
-    transform: scale(1.1);
-}
 
 .btn-card{
     position: absolute;
@@ -120,7 +128,7 @@ text-align: center;
     transform: scale(1);
 }
 .card.scalein {
-    animation: pulse 1s infinite;
+    animation: pulse 0.5s infinite;
 }
 
 /* Smaller devices styling */
@@ -211,6 +219,7 @@ font-size: 15px;
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
+    margin-top: 50px;
   }
   
   /*  vertical line */
@@ -303,6 +312,7 @@ font-size: 15px;
   /* timeline h1 tag*/
   .timeline-text{
     margin-bottom:2%;
+    margin-top:50px;
   }
   /*Enable Responsive feature */
   @media screen and (max-width: 900px) {
