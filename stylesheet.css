@@ -273,12 +273,16 @@ font-size: 15px;
   /*content */
   .content {
     padding: 20px 30px;
-    background-color: white;
     position: relative;
     border-radius: 6px;
     width: 50%;
   }
   
+  /* timeline icons*/
+  .timeline-icon{
+    border-radius: 50%;
+    border: white solid 2px;
+  }
   /* timeline h1 tag*/
   .timeline-text{
     margin-bottom:2%;
