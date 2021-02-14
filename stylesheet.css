@@ -73,7 +73,7 @@ html ,body {
   margin-top:0%;
   margin:50px;
   margin-bottom: 250px;
-  box-shadow: 2px 2px 20px 2px #323232;
+  box-shadow: 1px 1px 10px 1px #323232;
 }
 
 .first-card-image{
@@ -82,7 +82,11 @@ html ,body {
 
 .card-heading{
   color: white;
+  margin-top: 5%;
+
 }
+
+
 
 /* Jumbotron Styling */
 
