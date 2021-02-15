@@ -43,7 +43,7 @@ html ,body {
 }
 
 .caption1 {
-    text-shadow: 1px 1px 2px black;
+    text-shadow: 3px 3px 5px 3px black;
 }
 
 .btn-carousel {
@@ -92,7 +92,6 @@ html ,body {
 
 .jumbotron {
   border-radius: 0px;
-  margin-bottom:0px;
   margin-top: 0px;
   background-color: black;
 }
@@ -118,7 +117,7 @@ float:right;
 }
 
 .jumbotron-text{
-display: block;
+ display: block;
   max-width: 100%;
   text-align: center;
   font-weight: 500;
@@ -128,13 +127,13 @@ display: block;
 }
 
 .jumbotron-caption{
-display: block;
+ display: block;
   text-align: center;
   color: white;
   font-weight: 400;
   max-width: 100%;
   margin-left:70%;
-  margin-bottom: 70%;
+  margin-bottom: 50%;
 }
 
 .btn-jumbotron{
@@ -172,7 +171,7 @@ display: block;
   .timeline::after {
     content: '';
     position: absolute;
-    width: 4px;
+    width: 3px;
     background-color: white;
     top: 0;
     bottom: 0;
