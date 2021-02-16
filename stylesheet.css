@@ -171,7 +171,7 @@ float:right;
   .timeline::after {
     content: '';
     position: absolute;
-    width: 3px;
+    width: 4px;
     background-color: white;
     top: 0;
     bottom: 0;
