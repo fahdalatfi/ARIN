@@ -317,10 +317,7 @@ float:right;
     .container::after{
       left:32px;
     }
-    .container{
-      min-width: 900px;
-    }
-
+ 
     .content{
       width: 45%;
       margin-left: 0%;
@@ -348,6 +345,7 @@ float:right;
 
     .card-heading{
       text-align: center;
+ 
     }
 
     .first-card-image{
@@ -363,6 +361,7 @@ float:right;
       padding-left: 70px;
       padding-right: 25px;
     }
+
   
     .container::before {
       left: 60px;
@@ -395,7 +394,16 @@ float:right;
   .jumbotron-caption{
       font-size: 15px;
   }
+
+  .carousel-image {
+     height: 750px;
+    -webkit-transform: scale(1);
+     transform: scale(1); /* you can change the value also */
+    -webkit-transform-origin: center;
+     transform-origin: center;
+ }
   
+
   }
 
 
