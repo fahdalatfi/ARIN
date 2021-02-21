@@ -301,6 +301,21 @@ float:right;
     color: white;
   }
 
+  .social-networks-text{
+    font-size: 30px;
+    font-weight: 600;
+    display: block;
+    padding-top: 30px;
+  }
+
+  .container-footer{
+    position: flex;
+    justify-content: center;
+    background-color: #69c7ea;
+  }
+
+
+
 
 
   /*Enable Responsive feature */
