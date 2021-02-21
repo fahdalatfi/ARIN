@@ -306,12 +306,33 @@ float:right;
     font-weight: 600;
     display: block;
     padding-top: 30px;
+    text-align: center;
   }
 
   .container-footer{
     position: flex;
-    justify-content: center;
     background-color: #69c7ea;
+  }
+
+  .social-icons-container{
+    margin-left: 45%;
+    margin-right: auto;
+    padding-bottom: 30px;
+  }
+
+  .footer-copyright{
+    background-color: #222222;
+    box-shadow: 1px 1px 1px white;
+  }
+
+  .copyright-text{
+    margin-left:25%;
+    font-size: 12px;
+  }
+
+  .author-text{
+    margin-left:30%;
+    font-size: 12px;
   }
 
 
