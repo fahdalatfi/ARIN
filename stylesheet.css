@@ -11,6 +11,13 @@ html ,body {
 
 }
 
+a {
+  color:white;
+}
+
+p{
+  color:white;
+}
 
 
 /* Carousel Styling */
@@ -170,6 +177,7 @@ float:right;
     max-width: 1200px;
     margin: 0 auto;
     margin-top: 50px;
+    margin-bottom: 200px;;
     background-color: black;
   }
   
@@ -186,7 +194,7 @@ float:right;
   }
   
   /* Content container */
-  .container {
+  .container-timeline {
     padding: 10px 40px;
     position: relative;
     background-color: inherit;
@@ -195,7 +203,7 @@ float:right;
   }
   
   /* Small timeline circles */
-  .container::after {
+  .container-timeline::after {
     content: '';
     position: absolute;
     width: 25px;
@@ -287,6 +295,14 @@ float:right;
     margin-top:50px;
   }
 
+  /* Footer */
+
+  .footer-copyright , .text-uppercase , .footer-aboutus , .fas{
+    color: white;
+  }
+
+
+
   /*Enable Responsive feature */
 
 @media all and (min-width: 992px) {
@@ -304,7 +320,7 @@ float:right;
       left: 45px;
     }
 
-    .container::after{
+    .container-timeline::after{
       left:32px;
     }
  
@@ -346,14 +362,16 @@ float:right;
 
 
   
-    .container {
+    .container-timeline {
       width: 100%;
       padding-left: 70px;
       padding-right: 25px;
     }
 
+
+
   
-    .container::before {
+    .container-timeline::before {
       left: 60px;
       border: medium solid white;
       border-width: 10px 10px 10px 0;
