@@ -76,7 +76,23 @@ html ,body {
   box-shadow: 1px 1px 10px 1px #323232;
 }
 
+.main-card{
+  padding:100px;
+  display: block;
+  background-color: black;
+  max-height: 50%;
+  margin-top:0%;
+  margin:50px;
+  margin-bottom: 250px;
+  box-shadow: 1px 1px 10px 1px #323232;
+}
+
+
 .first-card-image{
+  margin-left:8%;
+}
+
+.card-image{
   margin-left:8%;
 }
 
@@ -281,30 +297,6 @@ float:right;
     margin-top:50px;
   }
   /*Enable Responsive feature */
-@media screen and (max-width:1024px)
-{
-
-.display-2 {
-    font-size: 25px;
-}
-.caption1 {
-font-size: 15px;
-
-}
-
-.btn-carousel{
-    font-size: 15px;
-    padding:2px;
-}
-
-.jumbotron-text{
-    font-size: 20px;
-}
-
-.jumbotron-caption{
-    font-size: 15px;
-}
-}
 
 @media all and (min-width: 992px) {
 	.navbar .nav-item .dropdown-menu{  display:block; opacity: 0;  visibility: hidden; transition:.3s; margin-top:0;  }
@@ -341,8 +333,18 @@ font-size: 15px;
       margin-left:0%;
     }
 
+    .cards-container{
+      flex-direction: column !important;
+      justify-content: space-around;
+      float: left;
+      max-width: 200px;
+    }
 
+    .first-card{
+      flex-direction: column !important;
+      float: left;
 
+    }
   
   /* Full-width containers */
     .container {
@@ -363,6 +365,27 @@ font-size: 15px;
     .left::after, .right::after {
       left: 15px;
     }
+
+    .display-2 {
+      font-size: 25px;
+  }
+  .caption1 {
+  font-size: 15px;
+  
+  }
+  
+  .btn-carousel{
+      font-size: 15px;
+      padding:2px;
+  }
+  
+  .jumbotron-text{
+      font-size: 20px;
+  }
+  
+  .jumbotron-caption{
+      font-size: 15px;
+  }
   
   }
 
