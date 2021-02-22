@@ -322,7 +322,7 @@ float:right;
 
   .footer-copyright{
     background-color: #222222;
-    box-shadow: 1px 1px 1px white;
+    border-top: solid 1px #3e3e3e;
   }
 
   .copyright-text{
@@ -459,6 +459,20 @@ float:right;
      height: 750px;
      background: url(images/background-responsive.png) no-repeat !important;
   }
+
+  .footer-first-col , .footer-second-col , .footer-third-col{
+    border-left: none;
+
+  }
+
+  .footer-first-col , .footer-second-col {
+    border-bottom: solid 1px gray;
+
+  }
+
+
+
+
   }
 
 
