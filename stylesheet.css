@@ -337,6 +337,22 @@ float:right;
 
 
 
+  .footer-first-col , .footer-second-col , .footer-third-col{
+    border-left: 1px solid gray;
+
+  }
+
+  .footer-third-col{
+    width: 250px;
+  }
+
+  .container-links{
+    margin-bottom: 20px;
+  }
+
+
+
+
 
 
   /*Enable Responsive feature */
