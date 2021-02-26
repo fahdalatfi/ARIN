@@ -350,6 +350,11 @@ float:right;
     margin-bottom: 20px;
   }
 
+  .footer-img{
+    padding:0;
+    max-height: 50px;
+  }
+
 
 
 
