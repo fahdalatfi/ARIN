@@ -6,7 +6,6 @@
 
 html ,body {
     background-color: black !important;
-
 }
 
 a {
@@ -427,7 +426,6 @@ float:right;
   }
     .caption1 {
      font-size: 15px;
-  
   }
   
   .btn-carousel{
@@ -450,7 +448,6 @@ float:right;
 
   .footer-first-col , .footer-second-col , .footer-third-col{
     border-left: none;
-
   }
 
   .footer-first-col , .footer-second-col {
