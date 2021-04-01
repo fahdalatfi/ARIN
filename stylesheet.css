@@ -58,9 +58,7 @@ p{
     padding: 10px;
 }
 
-
   /* Cards Styling */
-
 .container-cards{
   display: flex;
   max-width: 100%;
@@ -72,7 +70,6 @@ p{
 
 }
 
-
 .main-card{
   padding:100px;
   display: block;
@@ -83,7 +80,6 @@ p{
   margin-bottom: 250px;
   box-shadow: 1px 1px 10px 1px #323232;
 }
-
 
 .first-card-image{
   margin-left:8%;
@@ -159,9 +155,6 @@ float:right;
   
 }
 
-
-
-
 /* Timeline Styling */
 * {
     box-sizing: border-box;
@@ -230,8 +223,6 @@ float:right;
 
   }
 
-  
-  
   /* pointing left */
   .right::before {
     content: " ";
